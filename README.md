@@ -14,8 +14,8 @@ Por medio de este Coding Challenge, los mejores van a tener la oportunidad tener
 ## Instrucciones
 Lo que tienes que hacer es lo siguiente:
 
-1. Haz un fork de este repositorio.
-2. Tendrás que programar un proyecto traduciendo los diseños en un código robusto, funcional, legible y fácil de mantener.
+1. Haz un fork de éste repositorio.
+2. Tendrás que programar un proyecto traduciendo los diseños que vienen en `Assets.zip` en un código robusto, funcional, legible y fácil de mantener.
 3. Tendrás que usar el API de Bitso.
 4. Deberás de usar las siguientes tecnologías obligatoriamente: HTML5, CSS3/Less, JavaScript y React. Otros tecnologías están totalmente permitidas, siempre y cuando las justifiques (como pre-procesadores, linters, manejadores de paquetes, etc).
 5. Tendrás hacer contribuciónes regulares a tu código a partir del momento de que haces tu fork.
@@ -57,7 +57,7 @@ Esto es lo que evaluaremos:
     
 ## Notas sobre el API
 
-* La documentación del API de Bitso está [aquí](https://bitso.com/api_info)
+* La documentación del API de Bitso la podrás encontrar [aquí](https://bitso.com/api_info)
 * Para obtener la información de `open`, `close`, `high` y `low` de las transacciones por día en un periodo de tiempo, deberás consultar el siguiente URL: 
 ```https://bitso.com/trade/chartJSON/<book>/<timeframe>```
 dónde `book` es el libro a consultar y `timeframe` puede tomar estos valores:
@@ -65,4 +65,4 @@ dónde `book` es el libro a consultar y `timeframe` puede tomar estos valores:
     * `3months`
     * `1year`
     
-    Por ejemplo `https://bitso.com/trade/chartJSON/btc_mxn/1month` regresará información de el último mes de mercado BTC/MXN. 
+    Por ejemplo: `https://bitso.com/trade/chartJSON/btc_mxn/1month` regresará información de el último mes del mercado BTC/MXN.
