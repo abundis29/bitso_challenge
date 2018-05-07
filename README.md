@@ -1,4 +1,4 @@
-#FRONT END CHALLENGE - NINJA EDITION.
+# FRONT END CHALLENGE - NINJA EDITION.
 
 Hoy Bitso es el principal mercado de divisas digital de México y estamos muy orgullosos de eso y la neta  lo hemos logrado gracias al equipo que tenemos, pero como tu sabes, el reto crece cada día y es momento de llevar a nuestro equipo de ingeniería al siguiente nivel 🚀.
 
@@ -55,7 +55,14 @@ Esto es lo que evaluaremos:
     * Tu código incluye pruebas.
     * Tus animaciones son preciosas.
     
-## API
+## Notas sobre el API
 
-* La documentación del API de Bitso esá [aquí](https://bitso.com/api_info)
-* Para obtener la información de las transacciones en un periodo de tiempo deberás ir a https://bitso.com/trade/chartJSON/<book>/<periodo>
+* La documentación del API de Bitso está [aquí](https://bitso.com/api_info)
+* Para obtener la información de `open`, `close`, `high` y `low` de las transacciones por día en un periodo de tiempo, deberás consultar el siguiente URL: 
+```https://bitso.com/trade/chartJSON/<book>/<timeframe>```
+dónde `book` es el libro a consultar y `timeframe` puede tomar estos valores:
+    * `1month`
+    * `3months`
+    * `1year`
+    
+    Por ejemplo `https://bitso.com/trade/chartJSON/btc_mxn/1month` regresará información de el último mes de mercado BTC/MXN. 
