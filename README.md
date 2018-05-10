@@ -5,12 +5,12 @@ Bitso es el exchange de crypto más importante y grande de México. Este posicio
 a la tecnología que nuestro equipo de ingeniería ha construido. El reto y la misión que tenemos como empresa 
 crece cada día y siempre estamos buscando al mejor talento de nuestro país. 
 
-Para seguir creciendo necesitamos encontrar a los mejores programadores de Front End de México que nos ayu-
-den a construir mejores gráficas, más herramientas de trading, y proveer una mejor experiencia de usuario a los 
+Para seguir creciendo necesitamos encontrar a los mejores programadores de Front End de México que nos ayuden a construir mejores gráficas, 
+más herramientas de trading, y proveer una mejor experiencia de usuario a los 
 cientos de miles de clientes de Bitso.
 
-Ser parte de Bitso significa tener un impacto inmediato en el creciente ecosistema de crypto en México y Latinoa-
-mérica,  construir  productos  dirigidos  a  millones  de  usuarios,  trabajar  directamente  con  los  fundadores  de  Bitso,  
+Ser parte de Bitso significa tener un impacto inmediato en el creciente ecosistema de crypto en México y Latinoamérica, 
+construir  productos  dirigidos  a  millones  de  usuarios,  trabajar  directamente  con  los  fundadores  de  Bitso,  
 colaborar con un equipo de diseño UX de primer nivel y contribuir con tu código a uno de los mejores equipos de 
 ingeniería en México. 
 
@@ -35,8 +35,8 @@ Otras tecnologías están totalmente permitidas, siempre y cuando las justifique
 
 ## PROCESO Y CRITERIOS DE EVALUACIÓN
 En Bitso creemos en la igualdad de oportunidades, por lo que para eliminar posibles sesgos durante el proceso de 
-selección y asegurar un proceso justo para todos los participantes, al momento de evaluar las propuestas elimina-
-mos todos los identificadores personales y nos enfocamos 100% en evaluar el código y la solución con base en los 
+selección y asegurar un proceso justo para todos los participantes, al momento de evaluar las propuestas eliminamos todos 
+los identificadores personales y nos enfocamos 100% en evaluar el código y la solución con base en los 
 siguientes criterios: 
 
 1. Calidad del código: 30 puntos.
@@ -77,7 +77,7 @@ Disfruta el challenge.
     
 [Consultar las bases generales](https://bitso.com/assets/pdfs/front_end_coding_challenge_2018/bases_generales.pdf).
 
-Esta misma información también la puedes consultar en formato PDF [aquí](https://bitso.com/assets/pdfs/front_end_coding_challenge_2018/hoja_participantes.pdf).
+La información de este repositorio, hasta este punto, también la puedes consultar en [formato PDF aquí](https://bitso.com/assets/pdfs/front_end_coding_challenge_2018/hoja_participantes.pdf).
     
 ## Notas sobre el API
 
@@ -89,4 +89,4 @@ dónde `book` es el libro a consultar y `timeframe` puede tomar estos valores:
     * `3months`
     * `1year`
     
-    Por ejemplo: `https://bitso.com/trade/chartJSON/btc_mxn/1month` regresará información de el último mes del mercado BTC/MXN.
+    Por ejemplo: https://bitso.com/trade/chartJSON/btc_mxn/1month regresará información de el último mes del mercado BTC/MXN.
