@@ -78,9 +78,9 @@ Es momento que seas parte de Bitso y nos ayudes a transformar el mundo.
 
 Disfruta el challenge.
 
-[Consultar las bases generales.](https://bitso.com/assets/pdfs/front_end_coding_challenge_2018/bases_generales.pdf).
+[Consultar las bases generales](https://bitso.com/assets/pdfs/front_end_coding_challenge_2018/bases_generales.pdf).
 
-[Para participar Registrate en esta forma.](https://bitsoex.typeform.com/to/F6Zrso).
+[Para participar Registrate en esta forma](https://bitsoex.typeform.com/to/F6Zrso).
 
 ### Notas sobre el API
 
