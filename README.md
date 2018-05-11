@@ -1,5 +1,7 @@
 # BITSO FRONT END CHALLENGE
 
+![Front End Challenge Image](https://github.com/bitsoex/front-end-challenge/blob/master/bann_bfec.jpg)
+
 ## SOBRE BITSO
 Bitso es el exchange de crypto más importante y grande de México. Este posicionamiento lo hemos logrado gracias 
 a la tecnología que nuestro equipo de ingeniería ha construido. El reto y la misión que tenemos como empresa 
