@@ -1,0 +1,218 @@
+.row {
+    position: relative;
+    height: 43px;
+    border-top: 1px solid $separator;
+    display: block;
+    line-height: 43px;
+    width: 100%;
+&:before {
+        content: " ";
+        display: block;
+        width: 4px;
+        height: 43px;
+        position: absolute;
+        left: 0;
+}
+&.DRFT{
+    &:before{
+        background: $DRFT;
+    }
+}
+&.DDRF{
+    &:before{
+        background: $DDRF;
+    }
+}
+&.RQSD{
+    &:before{
+        background: $RQSD;
+    }
+}
+&.PEND{
+    &:before{
+        background: $PEND;
+    }
+}
+&.CONF{
+    &:before{
+        background: $CONF;
+    }
+}
+&.IPCO{
+    &:before{
+        background: $IPCO;
+    }
+}
+&.INPR{
+    &:before{
+        background: $INPR;
+    }
+}
+&.DELV{
+    &:before{
+        background: $DELV;
+    }
+}
+&.BLCK{
+    &:before{
+        background: $BLCK;
+    }
+}
+&.OHLD{
+    &:before{
+        background: $OHLD;
+    }
+}
+&.CNCL{
+    &:before{
+        background: $CNCL;
+    }
+}
+&:after {
+        display: block;
+        width: 1px;
+        height: 1px;
+        content: " ";
+        clear: both;
+    }
+}
+
+.status-circle{
+    display: block;
+    width: 20px;
+    height: 15px;
+    background-color: #8c3332;
+    float: left;
+    border-radius: 100px;
+    margin: 3px 8px 3px 3px;
+    &.DRFT{
+        background:$DRFT
+    }
+&.DDRF{
+    background:$DDRF
+}
+&.RQSD{
+    background:$RQSD
+}
+&.PEND{
+    background:$PEND
+}
+&.CONF{
+    background:$CONF
+}
+&.IPCO{
+    background:$IPCO
+}
+&.INPR{
+    background:$INPR
+}
+&.DELV{
+    background:$DELV
+}
+&.BLCK{
+    background:$BLCK
+}
+&.OHLD{
+    background:$OHLD
+}
+&.CNCL{
+    background:$CNCL
+}
+}
+
+
+.hh {
+    width: 100%;
+    text-align: center;
+    padding: 10%
+}
+
+.hh.A {
+    font-family: roboto;
+    font-size: 18px;
+    color: black
+}
+
+.hh.B {
+    font-family: roboto;
+    font-size: 16px;
+    color: black
+}
+
+.hh.C {
+    font-family: roboto;
+    font-size: 10px;
+    color: black
+}
+
+.hh.D {
+    font-family: roboto;
+    font-size: 8px;
+    color: black
+}
+
+.order-request-details-row{
+      width: 100%;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.fade-in {
+        -webkit-animation: fadein 1s;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 1s;
+        /* Firefox < 16 */
+        -ms-animation: fadein 1s;
+        /* Internet Explorer */
+        -o-animation: fadein 1s;
+        /* Opera < 12.1 */
+        animation: fadein 1s;
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    /* Firefox < 16 */
+    @-moz-keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    /* Internet Explorer */
+    @-ms-keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    @-o-keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+

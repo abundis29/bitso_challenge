@@ -1,0 +1,29 @@
+
+
+
+
+/// Regular font family
+/// @type List
+$font-stack:  'DIN';
+
+@font-face {
+    font-family: 'DIN';
+    src: url('./styles/fonts/DINPro-Regular.otf'); /* IE9 Compatibility Modes */
+    src: url('./styles/fonts/DINPro-Regular.otf?') format('otf'),  /* IE6-IE8 */
+    url('./styles/fonts/DINPro-Regular.otf') format('otf'),
+    url('./styles/fonts/DINPro-Regular.otf') format('otf'); /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'DIN_Medium';
+    src: url('./styles/fonts/DINPro-Medium.otf'); /* IE9 Compatibility Modes */
+    src: url('./styles/fonts/DINPro-Medium.otf?') format('otf'),  /* IE6-IE8 */
+    url('./styles/fonts/DINPro-Medium.otf') format('otf'),
+    url('./styles/fonts/DINPro-Medium.otf') format('otf'); /* Safari, Android, iOS */
+    }
+@font-face {
+    font-family: 'DIN_Light';
+    src: url('./styles/fonts/DINPro-Light.otf'); /* IE9 Compatibility Modes */
+    src: url('./styles/fonts/DINPro-Light.otf?') format('otf'),  /* IE6-IE8 */
+    url('./styles/fonts/DINPro-Light.otf') format('otf'),
+    url('./styles/fonts/DINPro-Light.otf') format('otf'); /* Safari, Android, iOS */
+}

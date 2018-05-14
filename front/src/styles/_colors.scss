@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass Colors.
+// -----------------------------------------------------------------------------
+
+$DarkGreen: #466830;
+$MediumGreen:#86af6b;
+$RegularGreen: #80c156;
+$LightGreen:#98d372;
+// ——————————————————————
+$DarkRed:#722837;
+$RegularRed:#cc4458;
+$MediumRed: #ba3040;
+// ——————————————————————
+$DarkNavy:#161a1e;
+$BackgroundNavy:#191e23;
+$RegularNavy:#252c36;
+$MediumNavy:#384555;
+$NavyHeaders:#313d4c;
+// ——————————————————————
+$DarkText:#4e5863;
+$LightText:#b0bac1;
+// ——————————————————————
+$SidebarBackground:#23292d;
+$Sidebar:#2e353d;
+$SidebarHeader:#727c84;
+$SidebarText:#747f89;
+$SidebarLightText:#b0bac1;
+// ——————————————————————
+$NeutralGray:#cccccc;
+$BitcoinYellow:#ebc256;
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+/// Breakpoints map
+/// @prop {String} keys:Keys are identifiers mapped to a given length
+/// @prop {Map} values:Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+$base-url: '/assets/' !default;

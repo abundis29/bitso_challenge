@@ -1,0 +1,32 @@
+
+
+.App {
+    @import '_colors.scss'; // Colors
+    @import '_fonts.scss';
+    @import '_normalize.scss';
+    @import '_typography.scss';
+
+    html {
+      font-size: 62.5%; }
+    body {
+      font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+      line-height: 1.6;
+      font-family: $font-stack !important;
+      color: #222;
+    }
+
+    .logo {
+        max-width: 120px;
+        margin: 1em;
+    }
+    .container {
+        width: 100%;
+    }
+    .navbar-inverse {
+        background: $NavyHeaders;
+        border-radius: 0;
+        .container {
+            width: 100%;
+        }
+    }
+}
