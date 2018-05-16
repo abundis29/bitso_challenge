@@ -11,7 +11,7 @@ class NightSwitch extends Component {
             className="onoffswitch-checkbox"
             id="myonoffswitch"
           />
-          <label className="onoffswitch-label" for="myonoffswitch">
+          <label className="onoffswitch-label" htmlFor="myonoffswitch">
             <span className="onoffswitch-inner" />
             <span className="onoffswitch-switch" />
           </label>

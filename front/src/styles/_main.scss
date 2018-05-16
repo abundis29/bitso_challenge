@@ -3,18 +3,21 @@
     @import '_fonts.scss';
     @import '_normalize.scss';
     @import '_typography.scss';
+    @import '_fx.scss';
     html {
         font-size: 62.5%;
-    }
-    *{
-        font-family: $font-stack, sans-serif;
-    }
+    } // * {
+    //     font-family: $font-stack, sans-serif;
+    // }
     body {
         font-size: 1.5em;
         /* currently ems cause chrome bug misinterpreting rems on body element */
         line-height: 1.6;
-        font-family: $font-stack ;
+        font-family: $font-stack;
         color: #222;
+    }
+    .clearType {
+        color: $LightText;
     }
     .logo {
         max-width: 120px;
@@ -30,6 +33,7 @@
     .navbar-inverse {
         background: $NavyHeaders;
         border-radius: 0;
+        margin-bottom: 0;
         .container {
             width: 100%;
         }
@@ -47,14 +51,12 @@
                 margin-top: 1rem;
                 color: $LightText !important;
                 margin-right: 1em;
-                font-weight: 300;
-                // .caret {
+                font-weight: 300; // .caret {
                 //     width: 10px;
                 //     height: 10px;
                 //     border: none;
                 //     font-family: 'Font Awesome\ 5 Free' !important ;
                 // }
-
                 // .caret:before {
                 //     content: "\f106";
                 // }
@@ -88,7 +90,7 @@
     .onoffswitch-label:before {
         content: "\F111";
         display: block;
-        width: 24.5px;
+        width: 24px;
         margin: 0px;
         color: $LightText;
         background: $DarkNavy;
@@ -119,8 +121,77 @@
         float: left;
         background-color: $DarkNavy;
         color: $LightText;
-        ;
+    }
+    .headline-stats {
+        background: $BackgroundNavy;
+        min-height: 50px;
+    }
+    .sidebar {
+        border-top: 1px $LightText solid;
+        background: $SidebarBackground;
+        min-height: calc(100vh - 110px);
+        border: 1px red solid;
+    }
+    .trade-container {
+        border-top: 1px $LightText solid;
+        background: $SidebarBackground;
+        min-height: calc(100vh - 110px);
+        display: inline;
+        float: left;
+        width: 72%;
+        border: 1px yellow solid;
+    }
+    .vertical-tab {
+
+    } // Paddings
+    .vertical-tab:focus {
+        background: $DarkNavy;
+    }
+    .tab-chevron {
+        font-size: 14px;
+        padding-top: 1em;
+        padding-bottom: 2em;
+    }
+    .tab-container {
+        float: left;
+        border: 1px purple solid;
+        background-color: $DarkNavy;
+        border-top: 1px $LightText solid;
+        min-height: calc(100vh - 110px);
+        width: 3%;
+        background: $NavyHeaders;
+        padding-top: 2em;
+        // min-width: 50px;
+    }
+    .tab-container:focus {
+        float: left;
+        border: 1px purple solid;
+        background-color: $DarkNavy;
+        border-top: 1px $LightText solid;
+        min-height: calc(100vh - 110px);
+        width: 3%;
+        background: red;
+        padding-top: 2em;
+        // min-width: 50px;
     }
 
+    .show-grid.row {
+        // margin-right: -32px;
+        // margin-left: -15px;
+    }
+    .clickable {
+        cursor: pointer;
+    }
+    .chart{
+        border: 1px green solid;
+
+    }
+    .chart-{
+        border: 1px blueviolet solid;
+
+    }
+    .no-padding{
+        margin: 0;
+    }
 }
 

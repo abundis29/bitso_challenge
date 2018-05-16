@@ -12,6 +12,8 @@ class MenuPrice extends React.Component {
       data: []
     };
 
+    console.log(this.state, props);
+
     fetch('https://api.bitso.com/v3/ticker/').then(response => {
       // console.log(response.json());
       var i = -1;
@@ -38,7 +40,7 @@ class MenuPrice extends React.Component {
           // console.log(menuItem);
           this.setState = { item: MenuItems };
         });
-
+        this.state.title = data.payload[0].book;
         console.log(this.state);
       });
     });

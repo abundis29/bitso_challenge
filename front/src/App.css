@@ -138,11 +138,38 @@
 .App p {
   margin-top: 0;
 }
+.App .rotateY {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.App .rotateX {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
 .App html {
   font-size: 62.5%;
-}
-.App * {
-  font-family: 'DIN', sans-serif;
 }
 .App body {
   font-size: 1.5em;
@@ -150,6 +177,9 @@
   line-height: 1.6;
   font-family: 'DIN';
   color: #222;
+}
+.App .clearType {
+  color: #b0bac1;
 }
 .App .logo {
   max-width: 120px;
@@ -165,6 +195,7 @@
 .App .navbar-inverse {
   background: #313d4c;
   border-radius: 0;
+  margin-bottom: 0;
 }
 .App .navbar-inverse .container {
   width: 100%;
@@ -209,7 +240,7 @@
 .App .onoffswitch-label:before {
   content: '\F111';
   display: block;
-  width: 24.5px;
+  width: 24px;
   margin: 0px;
   color: #b0bac1;
   background: #161a1e;
@@ -240,4 +271,63 @@
   float: left;
   background-color: #161a1e;
   color: #b0bac1;
+}
+.App .headline-stats {
+  background: #191e23;
+  min-height: 50px;
+}
+.App .sidebar {
+  border-top: 1px #b0bac1 solid;
+  background: #23292d;
+  min-height: calc(100vh - 110px);
+  border: 1px red solid;
+}
+.App .trade-container {
+  border-top: 1px #b0bac1 solid;
+  background: #23292d;
+  min-height: calc(100vh - 110px);
+  display: inline;
+  float: left;
+  width: 72%;
+  border: 1px yellow solid;
+}
+.App .vertical-tab:focus {
+  background: #161a1e;
+}
+.App .tab-chevron {
+  font-size: 14px;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.App .tab-container {
+  float: left;
+  border: 1px purple solid;
+  background-color: #161a1e;
+  border-top: 1px #b0bac1 solid;
+  min-height: calc(100vh - 110px);
+  width: 3%;
+  background: #313d4c;
+  padding-top: 2em;
+}
+.App .tab-container:focus {
+  float: left;
+  border: 1px purple solid;
+  background-color: #161a1e;
+  border-top: 1px #b0bac1 solid;
+  min-height: calc(100vh - 110px);
+  width: 3%;
+  background: red;
+  padding-top: 2em;
+}
+.App .clickable {
+  cursor: pointer;
+}
+.App .chart {
+  border: 1px green solid;
+}
+.App .chart- {
+  border: 1px blueviolet solid;
+}
+.App .no-padding {
+  margin: 0;
 }
